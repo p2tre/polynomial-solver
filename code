@@ -1,0 +1,12 @@
+import math
+import numpy as np
+#for x in range (-10000,10000):
+for x in np.arange(-10000,10000,1)/1000:
+#for x in np.linspace(0,10,11):
+ #print(x)
+#y = np.poly1d([35,40.7,0.8])
+ y = 35*x**2 +40.7*x + 0.8
+#print(y)
+ #if abs(y)<0.01:
+ if y==0:
+  print(x)
